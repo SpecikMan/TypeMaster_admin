@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="1092.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.SpecikMan.Controller.AdminSection.ReportController">
+   <children>
+      <Pane style="-fx-background-color: #FFF; -fx-background-radius: 10;">
+         <children>
+            <Pane layoutX="-3.0" prefHeight="685.0" prefWidth="1098.0" style="-fx-background-color: #FFFFCC;">
+               <children>
+                  <Pane layoutX="259.0" layoutY="57.0" prefHeight="324.0" prefWidth="644.0" style="-fx-background-color: #364FCD; -fx-background-radius: 10;">
+                     <children>
+                        <VBox layoutX="25.0" layoutY="76.0" prefHeight="235.0" prefWidth="593.0" spacing="20.0" style="-fx-background-radius: 2em;">
+                           <children>
+                              <Label text="Version: Beta " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Minimum Operating System:  Windows 8" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Minimum Memory: 512MB" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Publisher: T - K - T" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Release Date: 26/11/2021" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets top="20.0" />
+                           </padding>
+                        </VBox>
+                        <Label alignment="CENTER" layoutX="2.0" layoutY="15.0" prefHeight="37.0" prefWidth="695.0" text="TYPE MASTER" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Line endX="884.0" endY="0.5" layoutX="181.0" layoutY="414.0" startX="-162.6666717529297" startY="0.5" stroke="#ddd1d1" />
+                  <Line endX="3.0" endY="-8.0" layoutX="319.0" layoutY="424.0" startX="3.0" startY="207.0" stroke="#ddd1d1" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="334.0" layoutY="420.0" prefHeight="40.0" prefWidth="744.0" text="Sinh viên thực hiện" textFill="#383839">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Line endX="3.0" endY="36.0" layoutX="557.0" layoutY="424.0" startX="3.0" startY="208.0" stroke="#ddd1d1" />
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="438.0" prefHeight="54.0" prefWidth="290.0" text="Giáo viên hướng dẫn" textFill="#383839">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9342105388641357" green="0.39790448546409607" blue="0.39790448546409607" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Label>
+                  <Line endX="3.0" endY="36.0" layoutX="812.0" layoutY="424.0" startX="3.0" startY="207.0" stroke="#ddd1d1" />
+                  <TextField fx:id="txtOneMonth" alignment="CENTER" editable="false" layoutX="333.0" layoutY="519.0" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: #CCFFCC;" text="Phan Minh Trường">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9210526347160339" green="0.4392056465148926" blue="0.4392056465148926" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </TextField>
+                  <TextField fx:id="txtOneYear" alignment="CENTER" editable="false" layoutX="585.0" layoutY="519.0" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: #99FFCC;" text="Huỳnh Vỹ Khang">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9210526347160339" green="0.4392056465148926" blue="0.4392056465148926" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </TextField>
+                  <TextField fx:id="txtFiveYear" alignment="CENTER" editable="false" layoutX="841.0" layoutY="518.0" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: #66FFCC;" text="Phạm Chí Thiện">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9210526347160339" green="0.4392056465148926" blue="0.4392056465148926" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </TextField>
+                  <Label alignment="CENTER" layoutX="11.0" layoutY="507.0" prefHeight="54.0" prefWidth="290.0" text="Võ Phạm Thành Luân" textFill="#383839">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9342105388641357" green="0.39790448546409607" blue="0.39790448546409607" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Label>
+                  <TextField fx:id="txtOneMonth1" alignment="CENTER" editable="false" layoutX="332.0" layoutY="574.0" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: #CCFFCC;" text="1811062559">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9210526347160339" green="0.4392056465148926" blue="0.4392056465148926" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </TextField>
+                  <TextField fx:id="txtOneYear1" alignment="CENTER" editable="false" layoutX="584.0" layoutY="574.0" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: #99FFCC;" text="1811063360">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9210526347160339" green="0.4392056465148926" blue="0.4392056465148926" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </TextField>
+                  <TextField fx:id="txtFiveYear1" alignment="CENTER" editable="false" layoutX="840.0" layoutY="573.0" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: #66FFCC;" text="1811062307">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.9210526347160339" green="0.4392056465148926" blue="0.4392056465148926" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </TextField>
+               </children>
+            </Pane>
+            <HBox layoutY="3.0" prefHeight="38.0" prefWidth="1094.0" spacing="25.0">
+               <children>
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+                  <Circle fill="#f94344" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+               </children>
+               <padding>
+                  <Insets left="47.0" right="47.0" />
+               </padding>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
