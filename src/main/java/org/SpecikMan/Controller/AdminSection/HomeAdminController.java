@@ -141,4 +141,12 @@ public class HomeAdminController {
         scrollPane.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
         scrollPane.setVbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
     }
+
+    @FXML
+    void onFeedbackClicked() throws IOException {
+        pnl_scroll.getChildren().clear();
+        Node[] nodes = new Node[1];
+        nodes[0] = (Node) FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/fxml/Feedback.fxml")));
+        pnl_scroll.getChildren().add(nodes[0]);
+    }
 }

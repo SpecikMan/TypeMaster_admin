@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="1094.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.SpecikMan.Controller.AdminSection.FeedbackController">
+   <children>
+      <TableView fx:id="tvFeedback" layoutX="1.0" layoutY="414.0" onMouseClicked="#selectionChanged" prefHeight="267.0" prefWidth="1092.0">
+         <columns>
+            <TableColumn fx:id="tcUsername" prefWidth="156.79998469352722" text="Username" />
+            <TableColumn fx:id="tcDate" minWidth="0.0" prefWidth="160.8000030517578" text="Date" />
+            <TableColumn fx:id="tcDetail" prefWidth="770.3999633789062" text="Detail" />
+         </columns>
+         <effect>
+            <InnerShadow>
+               <color>
+                  <Color red="0.8552631735801697" green="0.4915783405303955" blue="0.19401803612709045" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </TableView>
+      <Pane layoutY="42.0" prefHeight="370.0" prefWidth="1096.0" style="-fx-background-color: #FFA500;">
+         <children>
+            <Label fx:id="lbUsername" layoutX="14.0" layoutY="14.0" text="Username:">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbDate" layoutX="359.0" layoutY="14.0" text="Date:">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="taDetail" layoutX="14.0" layoutY="51.0" prefHeight="313.0" prefWidth="1069.0" />
+         </children>
+      </Pane>
+      <HBox layoutY="2.0" prefHeight="41.0" prefWidth="1094.0" spacing="210.0" style="-fx-background-color: #FFA500;">
+         <children>
+            <Button fx:id="btnDelete" mnemonicParsing="false" onMouseClicked="#btnDeleteClicked" prefHeight="41.0" prefWidth="116.0" style="-fx-background-color: #4169E1;" text="Delete" textFill="WHITE">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </HBox>
+   </children>
+</AnchorPane>

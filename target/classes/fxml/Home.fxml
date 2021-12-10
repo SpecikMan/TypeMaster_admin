@@ -152,6 +152,21 @@
                   <Font name="Arial Bold" size="15.0" />
                </font>
             </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onMouseClicked="#onFeedbackClicked" prefHeight="42.0" prefWidth="259.0" stylesheets="@../css/stylepageAdmin.css" text="Feedback">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/icons8_Slider__32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
             <Button fx:id="btnSignout" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onMouseClicked="#onClickSignOut" prefHeight="42.0" prefWidth="259.0" stylesheets="@../css/stylepageAdmin.css" text="Sign Out">
                <graphic>
                   <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
